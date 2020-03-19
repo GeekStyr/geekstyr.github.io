@@ -1,2 +1,0 @@
-# GeekStyr-Website
-GeekStyr Website
