@@ -5,7 +5,6 @@ font-family: sans-serif;
 
 body {
     margin:0;
-    background-color: #0b042e;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -2134,7 +2133,9 @@ textarea.w-input, textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
-.w-layout-grid {
+   
+
+   .w-layout-grid {
     display: -ms-grid;
     display: grid;
     grid-auto-columns: 1fr;
@@ -2163,8 +2164,9 @@ textarea.w-input, textarea.w-select {
 }
 
 body {
-    font-family: Montserrat, sans-serif;
-    color: #1a1b1f;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0b042e;
+    color: #40adb0;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -2599,6 +2601,8 @@ figcaption {
 }
 
 .navigation-item {
+    font-family: 'Orbitron', sans-serif;
+    color: #40adb0;
     padding-top: 9px;
     padding-bottom: 9px;
     opacity: 0.6;
