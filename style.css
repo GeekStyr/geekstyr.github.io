@@ -22,5 +22,59 @@ body {
 }
 
 .navbar-dark .navbar-nav .navlink {
-    
+    color: #40adb0;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    background-color: #0b042e;
+    text-align: center;
+}
+
+
+/*--- Landing Page ---*/
+.home-inner {
+    background-image: url(img/Grid.png);
+}
+
+.caption {
+    width: 85%;
+    max-width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.caption img {
+    width: 85%;
+    max-width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
 }
