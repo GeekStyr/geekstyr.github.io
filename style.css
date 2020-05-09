@@ -39,7 +39,8 @@ body {
 
 /*--- Landing Page ---*/
 .home-inner {
-    background-image: url(img/Grid.png);
+    background-image: url(img/Grid.png) fixed center no-repeat;
+    background-size: cover;
 }
 
 .caption {
