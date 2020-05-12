@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Orbitron', sans-serif;
+    background: url('img/Grid.png') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: #0b042e;
+    color: #40adb0;
+}
+
+/*--- Navigation ---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: transparent!important;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .navlink {
+    color: #40adb0;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    background-color: #0b042e;
+    text-align: center;
+}
+
+
+/*--- Landing Page --- */
+
+
+
+.caption {
+    width: 85%;
+    max-width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+/*--
+.caption img {
+    width: 85%;
+    max-width: 100%;
+    position: absolute;
+    left: 7%;
+} */
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.centered form {
+    justify-content: center
+}
+
+.centered form .form-control {
+    background: #eff1f4;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 9px;
+    height: 45px;
+    margin-right: 10px;
+    min-width: 250px
+}
+
+.centered form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1
+}
+
+.centered form .btn:hover {
+    opacity: 1
+}
+
+.centered form .btn:active {
+    transform: translateY(1px)
+}
+
+.centered form .btn-primary {
+    background-color: #055ada !important;
+    color: #fff;
+    outline: none !important
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.btn-floating {
+    color: #40adb0;
+}
+
+.footer-link {
+    color: #40adb0;
+}
+
+.privacy,
+.terms {
+    background-color: rgba(0, 0, 0, .80);
+}
