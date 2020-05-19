@@ -146,5 +146,7 @@ hr {
     .navbar-dark .navbar-nav .nav-link {
         color: #0b042e;
     }
-    
+    .centered {
+        width: 60vh;
+        max-width: 100vh;
 }
