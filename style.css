@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
 
 body {
     overflow-x: hidden;
-    font-family: 'Orbitron', sans-serif;
-    background: url('img/Grid.png') no-repeat center bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    font-family: 'Orbitorn', sans-serif;
     background-color: #0b042e;
     color: #40adb0;
 }
@@ -16,17 +12,29 @@ body {
 /*--- Navigation ---*/
 .navbar {
     text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background-color: transparent!important;
+}
+
+.bg-dark {
+    transition: 500ms ease;
+    background: transparent !important;
+}
+
+
+
+.navbar-brand {
+    padding-left: .1rem;
+    padding-top: .5rem;
 }
 
 .navbar-nav li {
-    padding-right: .7rem;
+    padding-right: .1rem;
 }
 
-.navbar-dark .navbar-nav .navlink {
+.navbar-dark .navbar-nav .nav-link {
     color: #40adb0;
     padding-top: .8rem;
 }
@@ -36,117 +44,107 @@ body {
     color: white;
 }
 
+
 .navbar-collapse {
-    background-color: #0b042e;
     text-align: center;
+    margin-bottom: 10px;
+    z-index: 1;
 }
 
 
-/*--- Landing Page --- */
-
-
-
-.caption {
-    width: 85%;
-    max-width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 7%;
+/* Hero Section */
+.jumbotron {
+    width: 100%;
+    height: 90vh;
+    background-color: transparent!important;
 }
-/*--
-.caption img {
-    width: 85%;
-    max-width: 100%;
-    position: absolute;
-    left: 7%;
-} */
+
+.bg {
+    background: url('img/Grid.png') no-repeat bottom fixed;
+    background-size: contain;
+}
 
 .centered {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
-
-.caption h1 {
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
 }
 
-.caption h3 {
-    font-size: 2rem;
-    text-shadow: .1rem .1rem .5rem black;
-    padding-bottom: 1.6rem;
+p {
+    font-family: 'Orbitron', sans-serif;
+    text-align: justify;
 }
 
-.btn-lg {
-    border-width: medium;
-    border-radius: 0;
-    padding: .6rem 1.3rem;
-    font-size: 1.1rem;
+
+/*--- Start Footer Section ---*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.centered form {
-    justify-content: center
+ul>li {
+    padding: 4px;
 }
 
-.centered form .form-control {
-    background: #eff1f4;
-    border: none;
-    border-radius: 3px;
-    box-shadow: none;
-    outline: none;
-    color: inherit;
-    text-indent: 9px;
-    height: 45px;
-    margin-right: 10px;
-    min-width: 250px
+ul>li:hover {
+    color: #957bda;
+    cursor: pointer;
 }
 
-.centered form .btn {
-    padding: 16px 32px;
-    border: none;
-    background: none;
-    box-shadow: none;
-    text-shadow: none;
-    opacity: 0.9;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 0.4px;
-    line-height: 1
-}
-
-.centered form .btn:hover {
-    opacity: 1
-}
-
-.centered form .btn:active {
-    transform: translateY(1px)
-}
-
-.centered form .btn-primary {
-    background-color: #055ada !important;
-    color: #fff;
-    outline: none !important
-}
-
-.footer-copyright {
-    background-color: rgba(0, 0, 0, .75);
-}
-
-.btn-floating {
-    color: #40adb0;
+hr {
+    border-width: 3px
 }
 
 .footer-link {
     color: #40adb0;
 }
 
-.privacy,
-.terms {
-    background-color: rgba(0, 0, 0, .80);
+.social {
+    color: #40adb0;
+}
+
+.social i {
+    padding: 1%;
+    font-size: 15px
+    
+}
+
+.social i:hover {
+    color: #957bda;
+    cursor: pointer;
+}
+
+.policy>div {
+    padding: 4px;
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+/* Media Quieres */
+
+@media only screen and (max-width : 768px) {
+    .navbar-toggler {
+        background: #40adb0;
+    }
+    .navbar-collapse {
+    background: #40adb0;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #0b042e;
+    }
+    
 }
