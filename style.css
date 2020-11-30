@@ -147,6 +147,6 @@ hr {
         color: #0b042e;
     }
     .centered {
-        width: 60vh;
-        max-width: 100vh;
+        width: 60vw;
+        max-width: 100vw;
 }
